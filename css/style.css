@@ -176,14 +176,14 @@
 	width: 65vw;
 	top: 50px;
 	color: white;
-	padding: 3 60px;
+	padding: 3px 60px;
 	display: none;
   }
   
   .connect {
 	text-align: center;
 	font-size: 20px;
-	padding: 2 5px;
+	padding: 2px 5px;
   }
   .fa {
 	padding: 70px;
@@ -216,6 +216,10 @@
   }
   
   .fa-linkedin {
+	background: #007bb5;
+	color: white;
+  }
+  .fa-file-pdf-o {
 	background: #007bb5;
 	color: white;
   }
