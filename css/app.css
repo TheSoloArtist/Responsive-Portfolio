@@ -1,0 +1,32 @@
+.home h1 {
+  font-size: 45px;
+}
+
+@media screen and (min-width: 320px) {
+  .home h1 {
+    font-size: calc( 45px + strip-unit(85px) * ((100vw - 320px) / strip-unit(880px)));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .home h1 {
+    font-size: 130px;
+  }
+}
+
+.nav a {
+  font-size: 16px;
+}
+
+@media screen and (min-width: 320px) {
+  .nav a {
+    font-size: calc( 16px + strip-unit(12px) * ((100vw - 320px) / strip-unit(880px)));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav a {
+    font-size: 28px;
+  }
+}
+/*# sourceMappingURL=app.css.map */
